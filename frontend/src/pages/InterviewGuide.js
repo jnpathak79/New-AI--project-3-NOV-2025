@@ -72,16 +72,14 @@ const InterviewGuide = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex items-center justify-between">
             <div className="flex-1">
-              <div className="flex items-center gap-3 mb-2">
-                <div className="bg-white/10 backdrop-blur-sm px-4 py-1.5 rounded-full">
-                  <span className="text-white text-sm font-semibold">PrepGenius</span>
-                </div>
-                <span className="text-white/80 text-sm">Tech Leader Edition</span>
+              <div className="flex items-center gap-4 mb-3">
+                <h2 className="text-4xl font-black text-white tracking-tight">PrepGenius</h2>
+                <span className="text-2xl font-bold text-blue-100">Tech Leader Edition</span>
               </div>
               <h1 className="text-3xl font-bold text-white mb-2">Master Your Next Big Interview with 240+ Expert-Curated Questions</h1>
-              <p className="text-blue-100 text-lg font-medium mb-3">Flip. Learn. Succeed.</p>
-              <p className="text-white/90 text-sm max-w-3xl leading-relaxed">
-                Ace your FAANG/MAANG and GCC interviews with our interactive flashcard platform featuring 240 carefully crafted questions across Project Management, Program Management, AI Skills, and GCC Domain. Click-to-flip cards with comprehensive answers, track your progress, and filter by difficulty—from basic concepts to advanced scenarios. Built for tech leaders who demand excellence.
+              <p className="text-blue-100 text-lg font-semibold mb-3">Flip. Learn. Succeed.</p>
+              <p className="text-white/90 text-base max-w-3xl leading-relaxed">
+                Ace FAANG/MAANG & GCC interviews with 240 expert questions across 4 domains. Interactive flashcards with comprehensive answers, progress tracking, and difficulty filters. Built for tech leaders who demand excellence.
               </p>
             </div>
             <div className="text-right bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 ml-6">
