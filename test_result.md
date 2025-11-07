@@ -238,11 +238,13 @@ metadata:
 
 test_plan:
   current_focus:
+    - "PrepGenius Rebranding"
     - "Tab Navigation"
     - "Flashcard Flip Animation"
     - "Difficulty Filter System"
     - "Progress Tracking"
     - "Cross-tab Progress Isolation"
+    - "Visual Design and Layout"
   stuck_tasks: []
   test_all: true
   test_priority: "high_first"
