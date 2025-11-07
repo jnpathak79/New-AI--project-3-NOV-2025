@@ -237,3 +237,5 @@ agent_communication:
     message: "Starting comprehensive testing of Interview Preparation Guide application. Will test all 7 scenarios as requested in review."
   - agent: "testing"
     message: "TESTING COMPLETED SUCCESSFULLY: All 7 test scenarios passed. Application is fully functional with no critical issues found. All features working as expected: tab navigation, flashcard flip animation, difficulty filters, progress tracking with localStorage, reset functionality, professional visual design, and cross-tab progress isolation."
+  - agent: "testing"
+    message: "COMPREHENSIVE RE-TEST COMPLETED: Corrected previous question count errors. VERIFIED: All 4 tabs have exactly 60 questions each (total 240 questions). All critical functionality working perfectly: tab navigation, 60 questions per domain, difficulty filters (All/Basic/Intermediate/Advanced), flashcard flip animation, progress tracking with localStorage persistence, reset functionality, and cross-tab progress isolation. Performance excellent. Only minor WebSocket connection errors (expected in this environment, no impact on functionality)."
