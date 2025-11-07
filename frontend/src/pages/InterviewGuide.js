@@ -68,17 +68,26 @@ const InterviewGuide = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
-      <div className="bg-white border-b border-slate-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-700 border-b border-blue-700 shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-3xl font-bold text-slate-900">Interview Preparation Guide</h1>
-              <p className="text-slate-600 mt-2">FAANG/MAANG & GCC Domain Interview Questions</p>
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-2">
+                <div className="bg-white/10 backdrop-blur-sm px-4 py-1.5 rounded-full">
+                  <span className="text-white text-sm font-semibold">PrepGenius</span>
+                </div>
+                <span className="text-white/80 text-sm">Tech Leader Edition</span>
+              </div>
+              <h1 className="text-3xl font-bold text-white mb-2">Master Your Next Big Interview with 240+ Expert-Curated Questions</h1>
+              <p className="text-blue-100 text-lg font-medium mb-3">Flip. Learn. Succeed.</p>
+              <p className="text-white/90 text-sm max-w-3xl leading-relaxed">
+                Ace your FAANG/MAANG and GCC interviews with our interactive flashcard platform featuring 240 carefully crafted questions across Project Management, Program Management, AI Skills, and GCC Domain. Click-to-flip cards with comprehensive answers, track your progress, and filter by difficulty—from basic concepts to advanced scenarios. Built for tech leaders who demand excellence.
+              </p>
             </div>
-            <div className="text-right">
-              <div className="text-sm text-slate-600">Your Progress</div>
-              <div className="text-2xl font-bold text-blue-600">{progressData.percentage}%</div>
-              <div className="text-xs text-slate-500">{progressData.reviewed} / {progressData.total} reviewed</div>
+            <div className="text-right bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 ml-6">
+              <div className="text-sm text-blue-100 mb-1">Your Progress</div>
+              <div className="text-4xl font-bold text-white mb-1">{progressData.percentage}%</div>
+              <div className="text-xs text-blue-200">{progressData.reviewed} / {progressData.total} reviewed</div>
             </div>
           </div>
         </div>
